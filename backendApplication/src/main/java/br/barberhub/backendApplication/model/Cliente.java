@@ -21,6 +21,6 @@ public class Cliente extends Usuario {
     private String estado;
     private String cep;
     
-    @Column(columnDefinition = "LONGTEXT")
+    @Column(columnDefinition = "TEXT")
     private String foto;
 }

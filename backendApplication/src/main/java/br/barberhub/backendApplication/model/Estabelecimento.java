@@ -37,8 +37,8 @@ public class Estabelecimento extends Usuario {
     private String cidade;
     private String estado;
     private String cep;
-    
-    @Column(columnDefinition = "LONGTEXT")
+
+    @Column(columnDefinition = "TEXT")
     private String foto;
 
     @NotBlank

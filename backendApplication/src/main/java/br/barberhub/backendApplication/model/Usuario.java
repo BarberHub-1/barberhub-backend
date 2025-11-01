@@ -28,7 +28,6 @@ public abstract class Usuario implements UserDetails {
     @Column(unique = true, nullable = false)
     private String email;
 
-    @Column(nullable = false)
     private String senha;
 
     @Override
